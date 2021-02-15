@@ -7,7 +7,10 @@
 .container-junuary,
 .container-february,
 .container-march,
-.container-april {
+.container-april,
+.container-may,
+.container-june,
+.container-july {
   text-align: center;
   width: 300px;
 }
@@ -32,6 +35,18 @@ li {
 }
 
 .april__first--day {
+  grid-column-start: 4;
+}
+
+.may__first--day {
+  grid-column-start: 6;
+}
+
+.june__first--day {
+  grid-column-start: 2;
+}
+
+.july__first--day {
   grid-column-start: 4;
 }
 
