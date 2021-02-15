@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-.container {
+.container-junuary,
+.container-february {
   text-align: center;
   width: 300px;
 }
@@ -19,8 +20,12 @@ li {
   text-align: right;
 }
 
-.first-day {
+.junuary__first--day {
   grid-column-start: 5;
+}
+
+.february__first--day {
+  grid-column-start: 1;
 }
 
 .day-name {
