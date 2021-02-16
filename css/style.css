@@ -17,20 +17,10 @@ h1 {
   justify-items: center;
 }
 
-.container-junuary,
-.container-february,
-.container-march,
-.container-april,
-.container-may,
-.container-june,
-.container-july,
-.container-agust,
-.container-september,
-.container-october,
-.container-november,
-.container-december {
+.container-month {
   text-align: center;
   width: 300px;
+  padding: 10px;
 }
 
 ol {
