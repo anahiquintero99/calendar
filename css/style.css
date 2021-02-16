@@ -4,9 +4,10 @@
   box-sizing: border-box;
 }
 
-body {
+.container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
 }
 
 .container-junuary,
@@ -15,7 +16,12 @@ body {
 .container-april,
 .container-may,
 .container-june,
-.container-july {
+.container-july,
+.container-agust,
+.container-september,
+.container-october,
+.container-november,
+.container-december {
   text-align: center;
   width: 300px;
 }
@@ -28,6 +34,10 @@ ol {
 
 li {
   text-align: right;
+}
+
+li:hover {
+  color: palevioletred;
 }
 
 .junuary__first--day {
@@ -55,8 +65,28 @@ li {
   grid-column-start: 4;
 }
 
+.august__first--day {
+  grid-column-start: 7;
+}
+
+.september__first--day {
+  grid-column-start: 3;
+}
+
+.october__first--day {
+  grid-column-start: 6;
+}
+
+.november__first--day {
+  grid-column-start: 2;
+}
+
+.december__first--day {
+  grid-column-start: 5;
+}
+
 .day-name {
-  background: #eee;
+  background: pink;
   font-weight: bold;
   text-align: center;
 }
