@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+h1 {
+  color: pink;
+  font-size: 50px;
+  text-align: center;
+  padding: 20px;
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
